@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mriya_resort/static/css/main.16aa795a.css",
-    "main.js": "/mriya_resort/static/js/main.04adc6a5.js",
+    "main.css": "/mriya_resort/static/css/main.2e47468c.css",
+    "main.js": "/mriya_resort/static/js/main.e3b7b6ff.js",
     "static/media/flower.png": "/mriya_resort/static/media/flower.0e79753aac7a310abea9.png",
     "static/media/backRight.png": "/mriya_resort/static/media/backRight.a70820e24e88681eb5d5.png",
     "static/media/backLeft.png": "/mriya_resort/static/media/backLeft.a8d75b13a936618f9be5.png",
@@ -39,11 +39,11 @@
     "static/media/flower_stroke.png": "/mriya_resort/static/media/flower_stroke.a6b42fd19b9b9f01a5f9.png",
     "static/media/linesRight.png": "/mriya_resort/static/media/linesRight.5cf4ab651eac6921e864.png",
     "index.html": "/mriya_resort/index.html",
-    "main.16aa795a.css.map": "/mriya_resort/static/css/main.16aa795a.css.map",
-    "main.04adc6a5.js.map": "/mriya_resort/static/js/main.04adc6a5.js.map"
+    "main.2e47468c.css.map": "/mriya_resort/static/css/main.2e47468c.css.map",
+    "main.e3b7b6ff.js.map": "/mriya_resort/static/js/main.e3b7b6ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.16aa795a.css",
-    "static/js/main.04adc6a5.js"
+    "static/css/main.2e47468c.css",
+    "static/js/main.e3b7b6ff.js"
   ]
 }
