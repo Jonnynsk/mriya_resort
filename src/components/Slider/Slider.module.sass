@@ -1,0 +1,47 @@
+.sliderBlock
+    width: 1392px
+    height: 856px
+    border-radius: 24px
+    margin-left: 24px
+    margin-top: 96px
+    background-color: #F6F6F6
+    .linesLeft
+        position: absolute
+        top: 2127px
+    .linesRight
+        position: absolute
+        top: 2127px
+        left: 1104px
+    .sliderNav
+        display: flex
+        margin-left: 116px
+        .title
+            font-size: 64px
+            margin-top: 57px
+            font-family: SangBleuKingdom-Bold
+        .buttons
+            display: flex
+            gap: 16px
+            margin-left: 33px
+            margin-top: 87px
+            .button
+                cursor: pointer
+
+@media only screen and (max-width: 360px)
+    .sliderBlock
+        width: 360px
+        height: 1232px
+        margin-left: 0px
+        margin-top: 120px
+        .linesLeft
+            display: none
+        .linesRight
+            display: none
+        .sliderNav
+            margin-left: 16px
+            .title
+                font-size: 24px
+                margin-top: 28px
+            .buttons
+                margin-left: 56px
+                margin-top: 24px

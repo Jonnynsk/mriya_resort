@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: EuclidCircularB-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #3D3C3C
+}
+
+@font-face {
+	font-family: "EuclidCircularB-Regular";
+	src: url("/src/assets/fonts/EuclidCircularB/Regular/EuclidCircularB-Regular.eot");
+	src: url("/src/assets/fonts/EuclidCircularB/Regular/EuclidCircularB-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("/src/assets/fonts/EuclidCircularB/Regular/EuclidCircularB-Regular.woff") format("woff"),
+			 url("/src/assets/fonts/EuclidCircularB/Regular/EuclidCircularB-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "EuclidCircularB-Bold";
+	src: url("/src/assets/fonts/EuclidCircularB/Bold/EuclidCircularB-Bold.eot");
+	src: url("/src/assets/fonts/EuclidCircularB/Bold/EuclidCircularB-Bold.eot?#iefix") format("embedded-opentype"),
+			 url("/src/assets/fonts/EuclidCircularB/Bold/EuclidCircularB-Bold.woff") format("woff"),
+			 url("/src/assets/fonts/EuclidCircularB/Bold/EuclidCircularB-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "EuclidCircularB-SemiBold";
+	src: url("/src/assets/fonts/EuclidCircularB/SemiBold/EuclidCircularB-SemiBold.eot");
+	src: url("/src/assets/fonts/EuclidCircularB/SemiBold/EuclidCircularB-SemiBold.eot?#iefix") format("embedded-opentype"),
+			 url("/src/assets/fonts/EuclidCircularB/SemiBold/EuclidCircularB-SemiBold.woff") format("woff"),
+			 url("/src/assets/fonts/EuclidCircularB/SemiBold/EuclidCircularB-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "EuclidCircularB-Medium";
+	src: url("/src/assets/fonts/EuclidCircularB/Medium/EuclidCircularB-Medium.eot");
+	src: url("/src/assets/fonts/EuclidCircularB/Medium/EuclidCircularB-Medium.eot?#iefix") format("embedded-opentype"),
+			 url("/src/assets/fonts/EuclidCircularB/Medium/EuclidCircularB-Medium.woff") format("woff"),
+			 url("/src/assets/fonts/EuclidCircularB/Medium/EuclidCircularB-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "EuclidCircularB-Light";
+	src: url("/src/assets/fonts/EuclidCircularB/Light/EuclidCircularB-Light.eot");
+	src: url("/src/assets/fonts/EuclidCircularB/Light/EuclidCircularB-Light.eot?#iefix") format("embedded-opentype"),
+			 url("/src/assets/fonts/EuclidCircularB/Light/EuclidCircularB-Light.woff") format("woff"),
+			 url("/src/assets/fonts/EuclidCircularB/Light/EuclidCircularB-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "SangBleuKingdom-Regular";
+	src: url("/src/assets/fonts/SangBleuKingdom/Regular/SangBleuKingdom-Regular-WebXL.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "SangBleuKingdom-Bold";
+	src: url("/src/assets/fonts/SangBleuKingdom/Bold/SangBleuKingdom-Bold-WebXL.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

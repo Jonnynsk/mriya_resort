@@ -1,0 +1,83 @@
+.header
+    height: 78px
+    display: flex
+    flex-direction: row
+    border-bottom: 1px solid #3D3C3C10
+    .nav
+        display: flex
+        flex-direction: row
+        margin-left: 60px
+        margin-top: 33px
+        .tab
+            margin-right: 64px
+            cursor: pointer
+            font-size: 14px
+            letter-spacing: 1.2px
+            font-family: EuclidCircularB-Medium
+    .navLang
+        display: flex
+        flex-direction: row
+        margin-left: 87px
+        letter-spacing: 1.2px
+        margin-top: 33px
+        .langTitle
+            margin-right: 25px
+            cursor: pointer
+            font-size: 14px
+            font-family: EuclidCircularB-Medium
+            letter-spacing: 1.1px
+    .logo
+        margin-left: 13px
+        margin-top: 7px
+    .key
+        display: none
+    .navEnter
+        z-index: 56
+        margin-left: 133px
+        display: flex
+        flex-direction: row
+        z-index: 0
+        .enter
+            display: flex
+            flex-direction: row
+            margin-top: 31px
+            cursor: pointer
+            letter-spacing: 1.1px
+            .enterText
+                margin-left: 7px
+                color: #fff
+                font-size: 14px
+                margin-top: 2px
+                border-bottom: 1px dashed #fff
+        .mobile
+            margin-left: 40px
+            color: #fff
+            font-size: 14px
+            letter-spacing: 1.2px
+            margin-top: 33px
+
+@media only screen and (max-width: 360px)
+    .header
+        width: 360px
+        box-shadow: 0px 2px 5px rgba(142, 124, 78, 0.16)
+        background-color: #fff
+        position: relative
+        z-index: 5
+        .nav
+            display: none
+        .navLang
+            display: none
+        .navEnter
+            display: none
+        .logo
+            margin-left: 67px
+        .key
+            width: 78px
+            margin-left: 67px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-left: 1px solid #3D3C3C20
+            .key_img
+                width: 30px
+                height: 16px

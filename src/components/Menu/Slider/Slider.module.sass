@@ -1,0 +1,29 @@
+.sliderNav
+    position: absolute
+    right: 40px
+    top: 640px
+    z-index: 100
+    .buttons
+        display: flex
+        gap: 16px
+    .activeDot
+        margin-top: -4px
+        margin-right: -8px
+        cursor: pointer
+        .arc
+            position: relative
+            top: -4px
+            right: 8px
+    .dot
+        cursor: pointer
+
+.menuSlider
+    position: absolute
+    right: 0
+    top: 80px
+
+@media only screen and (max-width: 360px)
+    .sliderNav
+        display: none
+    .menuSlider
+        display: none

@@ -1,0 +1,221 @@
+.container
+    width: 1360px
+    height: 768px
+    background-color: #242424
+    position: absolute
+    top: 0
+    z-index: 2
+    .socials
+        position: absolute
+        top: 512px
+        left: 60px
+    .navMobile
+        display: none
+    .phone
+        display: none
+    .mail
+        color: #ffffff74
+        position: absolute
+        left: 1099px
+        top: 720px
+        font-size: 14px
+        line-height: 24px
+        letter-spacing: 1.1px
+        font-family: EuclidCircularB-Medium
+    .lineLarge
+        position: absolute
+        top: 112px
+        left: 83px
+    .lineLargest
+        position: absolute
+        top: 112px
+        left: 540px
+    .bottomLine
+        position: absolute
+        top: 696px
+        right: 0
+    .buttonBrg
+        position: absolute
+        top: 0
+        right: -80px
+    .menu
+        display: flex
+        margin-top: 23px
+        margin-left: 136px
+        position: relative
+        .categories
+        .categoriesMenu
+            margin-left: 14px
+            width: 399px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .categoriesSubMenu
+                display: block
+                z-index: 5
+                margin-left: 39px
+                .subText
+                    color: #fff
+                    margin-bottom: 32px
+                    font-size: 24px
+                    margin-top: 16px
+                    width: 272px
+                    line-height: 32px
+                    cursor: pointer
+                    &:hover
+                        color: #D9C287
+            .info
+                width: 321px
+                font-family: EuclidCircularB-Medium
+                font-size: 16px
+                line-height: 24px
+                margin-left: 39px
+                margin-bottom: 17px
+                color: #FFFFFF48
+    .header
+        display: flex
+        height: 79px
+        border-bottom: 1px solid #C4C4C410
+        .logo
+            margin: 8px 48px 0 50px
+            width: 66px
+            height: 56px
+        .nav
+            margin-top: 34px
+            display: flex
+            gap: 65px
+            color: #fff
+            .tab
+                cursor: pointer
+                font-size: 14px
+                letter-spacing: 1.1px
+            .enter
+                display: flex
+                flex-direction: row
+                cursor: pointer
+                letter-spacing: 1.1px
+                margin-left: 378px
+                .enterText
+                    margin-left: 7px
+                    color: #fff
+                    font-size: 14px
+                    margin-top: 0px
+                    border-bottom: 1px dashed #fff
+                .key
+                    margin-bottom: 2px
+
+.button
+    width: 335px
+    height: 64px
+    border-radius: 8px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 28px
+    cursor: pointer
+    &:hover
+        background-color: #D9C28716
+        .arrow
+            width: 8px
+            height: 12px
+            display: block
+            margin-top: 3px
+    .buttonText
+        color: #fff
+        font-size: 24px
+        font-family: EuclidCircularB-Light
+    .arrow
+        display: none
+
+@media only screen and (max-width: 360px)
+    .container
+        width: 360px
+        height: 1130px
+        z-index: 100
+        overflow: hidden
+        .bottomLine
+            display: none
+        .menu
+            margin-top: 0px
+            margin-left: 0px
+            .categoriesSubMenu
+                width: 360px
+                padding: 22px 32px
+                .subText
+                    font-size: 16px
+                    color: #fff
+                    margin-bottom: 12px
+                    width: 253px
+                    &:hover
+                        color: #D9C287
+
+        .socials
+            margin-top: 130px
+            margin-bottom: 136px
+            top: 868px
+            left: 78px
+            display: flex
+            gap: 24px
+        .buttonFind
+            margin-top: 70px
+            margin-left: 14px
+        .navMobile
+            display: block
+            color: #fff
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+            height: 102px
+            text-align: center
+            padding: 30px 12px
+            width: calc( 100% - 10px )
+            .tabMobile
+                margin-bottom: 21px
+                margin-right: 31px
+                font-size: 14px
+                letter-spacing: 1.1px
+        .phone
+            color: #ffffff
+            position: absolute
+            left: 116px
+            top: 1060px
+            font-size: 14px
+            line-height: 24px
+            letter-spacing: 1.1px
+            font-family: EuclidCircularB-Medium
+            display: block
+        .mail
+            left: 74px
+            top: 1090px
+        .buttonBrg
+            right: 0px
+        .lineLarge
+            display: none
+        .lineLargest
+            display: none
+        .header
+            background-color: #3D3C3C
+            .lang 
+                position: absolute
+                top: 27px
+                color: #fff
+                font-size: 20px
+                font-family: EuclidCircularB-Regular
+                left: 25px
+                letter-spacing: 1.1px
+            .nav
+                display: none
+            .logo
+                margin: 8px 8px 0 147px
+
+        .button
+            width: '100%'
+            height: 56px
+            padding: 0 16px
+            &:hover
+                background-color: #D9C28716
+                .arrow
+                    margin-right: 24px
+                    transform: rotate(90deg)
+            .buttonText
+                font-size: 20px

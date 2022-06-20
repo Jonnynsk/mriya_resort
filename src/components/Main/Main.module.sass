@@ -1,0 +1,47 @@
+.block
+    overflow: hidden
+    &_blurred
+        opacity: 0.64
+        overflow: hidden
+        
+.socials
+    position: absolute
+    top: 271px
+    right: 76px
+    z-index: -1
+.weather
+    position: absolute
+    top: 712px
+    right: 229px
+.line
+    margin-left: 172px
+    margin-top: 24px
+.header_mobile
+    display: none
+.header_stroke
+    display: none
+.downBtn
+    margin-left: 140px
+    margin-top: 20px
+
+@media only screen and (max-width: 360px)
+    .socials
+        display: none
+    .weather
+        display: none
+    .line
+        display: none
+    .header_mobile
+        position: absolute
+        right: 0
+        top: 13px
+        z-index: 1
+        display: block
+    .header_stroke
+        position: absolute
+        right: -1px
+        top: 2px
+        display: block
+    .downBtn
+        margin-left: 148px
+        margin-top: 48px
